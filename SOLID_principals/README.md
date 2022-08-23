@@ -2,9 +2,28 @@
 
 `SOLID` 원칙은 소프트웨(SW, Software)공학에서 반드시 다루는 주제입니다.
 
-만약 여러분이 자바(Java), 피이썬(Python), C++ 같은 객체지향(Object Oriented) 언어를 사용하고 있다면 피해 갈 수 없으며, 숙명적으로 만나야 하는 내용입니다. 
+만약 여러분이 자바(Java), 피이썬(Python), C++ 같은 객체지향(Object Oriented) 언어를 공부하거나 사용하고 있다면 피해 갈 수 없으며, 숙명적으로 만나야 하는 내용입니다. 본인이 피하고 싶다고 피할 수 있는 내용이 아닙니다.
 
 `SOLID`는 객체지향 설계 (`OOD`: Object Oriented Design) 또는 객체지향 프로그래밍 (`OOP`: Obeject Oriented Programming)에서 반드시 알아야 하는 5가지 원칙을 말합니다.
+
+튜토리얼과 관련된 문서, 소스코드, 유튜브 동영상 링크 정보는 다음과 같습니다.
+
+## SOLID 튜토리얼 세부 정보
+
+|순번|제목|웹 문서|소스코드|Youtube 링크|
+|:---|:---|:---:|:---|:---|
+|-|유튜브 동영상 목록 보기|없음|없음|유튜브 [목록 보기](https://www.youtube.com/playlist?list=PLRUS1nW-CfncWwWByDX-MRHZvJJwE-oz7)|
+|0|Overview (훑어보기)|없음|없음|유튜브 [바로가기](https://youtu.be/59vNT83fcTA)|
+|1|**S** : 단일 책임 원칙 (SRP)|[Click](./docs/01_solid-srp.md)|SRP 적용 전 [Click](./codes/01_01_solid-tutorial-srp-before.py) <br>SRP 적용 후 [Click](./codes/01_02_solid-tutorial-srp-after.py)|유튜브 [바로가기](https://youtu.be/dzsmyn40FoM)|
+|2|**O** : 개방 폐쇄 원칙 (OCP)|[Click](./01_01_intro_to_mermaid.md)|OCP 적용 전 [click](./codes/02_01_solid-tutorial-ocp-before.py) <br>OCP 적용 후 [click](./codes/02_02_solid-tutorial-ocp-after.py) |유튜브 [바로가기](https://youtu.be/2sYPFJS2HzY)|
+|3|**L** : 리스코프 교체 원칙 (LSP)|[Click](./01_01_intro_to_mermaid.md)|LSP 적용 전 [click](./codes/03_01_solid-tutorial-lsp-before.py) <br>LSP 적용 후 [click](./codes/03_02_solid-tutorial-lsp-after.py)|유튜브 [바로가기](https://youtu.be/ebTdQrCGXvg)|
+|4|**I** : 인터페이스 분리 원칙 (ISP)|[Click](./01_01_intro_to_mermaid.md)|ISP 적용 전 [click](./codes/04_01_solid-isp-before.py) <br>ISP 적용 후 (상속 활용) [click](./codes/04_02_solid-isp-after-inheritance.py) <br>ISP 적용 후 (합성 활용) [click](./codes/04_03_solid-isp-after-composition.py) |유튜브 [바로가기](https://youtu.be/eU2Gx-0TwPk)|
+|5|**D** : 의존관계 역전 원칙 (DIP)|[Click](./01_01_intro_to_mermaid.md)| DIP 적용 전 [click](./codes/05_01_solid_dip_before.py) <br> DIP 중간 단계 [click](codes/05_02_solid_dip_intermediate.py) <br> DIP 적용 후 [click](codes/05_03_solid_dip_after.py) |유튜브 [바로가기](https://youtu.be/riZjLpvO8xk)|
+|6|참고자료 : 연관 및 의존관계 설명|[Click](./docs/relationship-association-vs-dependency.md)|없음|없음|
+||||||
+
+
+## SOLID 원칙을 알아야 하는 이유
 
 SW 기술이 눈부시게 발전하면서 SW 개발 언어도 개발자의 요구에 따라 빠르게 진화하고 있습니다. 이는 SW를 효율적으로 개발하고 유지보수 할 수 있다는 점에서 상당히 좋은 현상입니다.
 
@@ -16,7 +35,7 @@ SW 기술 발전으로 개발/유지보수에 편리한 점도 많지만, 역설
 
 <img src="./imgs/sabjil.jpg" alt="Babara Liskov" height="250">
 
-이미지 출처: 블로그 게시글 "진짜 개삽질, 파이썬 3 ..." ([바로가기](https://blog.naver.com/PostView.nhn?blogId=nackji80&logNo=221263224490&parentCategoryNo=&categoryNo=54&viewDate=&isShowPopularPosts=true&from=search))
+이미지 출처: 블로그 게시글 ["진짜 개삽질, 파이썬 3 ..."](https://blog.naver.com/PostView.nhn?blogId=nackji80&logNo=221263224490&parentCategoryNo=&categoryNo=54&viewDate=&isShowPopularPosts=true&from=search)
 
 SW 개발에서 삽질이란 `뭔가를 몰라서` 또는 `굳이 안해도 되는` 것에 해당되는 경우에 추가적/부가적으로 해야하는 작업입니다. 
 
@@ -38,17 +57,5 @@ SW 개발 과정에서 삽질의 예는 이렇습니다.
 
 이제부터 차근차근 그 원리와 활용 방법에 대해 알아보도록 하겠습니다.
 
-## SOLID 튜토리얼 문서 및 동영상 링크 안내
 
-|순번|제목|웹 문서|소스코드|Youtube 링크|
-|:---|:---|:---:|:---|:---|
-|-|유튜브 동영상 목록 보기|없음|없음|유튜브 [목록 보기](https://www.youtube.com/playlist?list=PLRUS1nW-CfncWwWByDX-MRHZvJJwE-oz7)|
-|0|Overview (훑어보기)|없음|없음|유튜브 [바로가기](https://youtu.be/59vNT83fcTA)|
-|1|**S** : 단일 책임 원칙 (SRP)|[Click](./docs/01_solid-srp.md)|SRP 적용 전 [Click](./codes/01_01_solid-tutorial-srp-before.py) <br>SRP 적용 후 [Click](./codes/01_02_solid-tutorial-srp-after.py)|유튜브 [바로가기](https://youtu.be/dzsmyn40FoM)|
-|2|**O** : 개방 폐쇄 원칙 (OCP)|[Click](./01_01_intro_to_mermaid.md)|OCP 적용 전 [click](./codes/02_01_solid-tutorial-ocp-before.py) <br>OCP 적용 후 [click](./codes/02_02_solid-tutorial-ocp-after.py) |유튜브 [바로가기](https://youtu.be/2sYPFJS2HzY)|
-|3|**L** : 리스코프 교체 원칙 (LSP)|[Click](./01_01_intro_to_mermaid.md)|LSP 적용 전 [click](./codes/03_01_solid-tutorial-lsp-before.py) <br>LSP 적용 후 [click](./codes/03_02_solid-tutorial-lsp-after.py)|유튜브 [바로가기](https://youtu.be/ebTdQrCGXvg)|
-|4|**I** : 인터페이스 분리 원칙 (ISP)|[Click](./01_01_intro_to_mermaid.md)|ISP 적용 전 [click](./codes/04_01_solid-isp-before.py) <br>ISP 적용 후 (상속 활용) [click](./codes/04_02_solid-isp-after-inheritance.py) <br>ISP 적용 후 (합성 활용) [click](./codes/04_03_solid-isp-after-composition.py) |유튜브 [바로가기](https://youtu.be/eU2Gx-0TwPk)|
-|5|**D** : 의존관계 역전 원칙 (DIP)|[Click](./01_01_intro_to_mermaid.md)| DIP 적용 전 [click](./codes/05_01_solid_dip_before.py) <br> DIP 중간 단계 [click](codes/05_02_solid_dip_intermediate.py) <br> DIP 적용 후 [click](codes/05_03_solid_dip_after.py) |유튜브 [바로가기](https://youtu.be/riZjLpvO8xk)|
-|6|참고자료 : 연관 및 의존관계 설명|[Click](./docs/relationship-association-vs-dependency.md)|없음|없음|
-||||||
 
