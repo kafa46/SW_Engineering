@@ -1,9 +1,3 @@
----
-noteId: "2567ffd01c1f11ed83d7abc997ea7da3"
-tags: []
-
----
-
 
 # 리스코프 교체 원칙 (LSP)
 
@@ -12,7 +6,7 @@ tags: []
 
 Babara Liskov는 프로그래밍 언어 및 분산 컴퓨팅 분야의 선구자로 인정받고 있으며 MIT 교수로 재직 중입니다. 그녀는  이 공로를 인정받아 2008년 튜링상을 수상하였습니다.(그림 출처: [온라인 위키](https://en.wikipedia.org/wiki/Barbara_Liskov))
 
-<img src="../imgs/Barbara_Liskov.jpg" alt="Babara Liskov" height="150">
+<img src="../imgs/Barbara_Liskov.jpg" alt="Babara Liskov" height="300">
 
 그녀는 1988년 컨퍼런스에서 'Data Abstraction and Hierachy'라는 주제의 Keynote 발표에서 리스코프 교체 원칙을 소개하였습니다. 리스코프 교체 원칙은 리스코프 치환 원칙으로 부르기도 합니다. 앞으로는 줄여서 `LSP`로 부르도록 하겠습니다.
 
@@ -342,3 +336,5 @@ if __name__=='__main__':
 위와 같이 구현하면 부모 클래스가 본래 의도했던 모든 것이 자식 클래스에서 구현되었습니다. 부모 클래스를 어떤 자식 클래스로 대체(치환)하여도 문제없이 작동됩니다.
 
 이제 우리는 코드 수정을 통해 LSP 원칙을 준수하게 되었습니다.
+
+SOLID 튜토리얼 메인 페이지로 돌아가기 [Click](../README.md)

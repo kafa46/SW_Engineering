@@ -1,8 +1,3 @@
----
-noteId: "4e7e4550182811edb18133bd95053ebd"
-tags: []
-
----
 
 # 단일 책임 원칙 (SRP)
 
@@ -99,3 +94,5 @@ classDiagram
         print(f"Verifying security code: {security_code}")
         order.status = "paid"
   ```
+
+SOLID 튜토리얼 메인 페이지로 돌아가기 [Click](../README.md)

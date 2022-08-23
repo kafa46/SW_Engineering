@@ -1,16 +1,9 @@
----
-noteId: "8c45acd019a811eda5b0f9c9fffe51d4"
-tags: []
-
----
-
 # 개방 폐쇄 원칙 (OCP)
-
 
 개방 폐쇄 원칙은 Bertrand Meyer(1995~, France)가 'Object Oriented Software Construction (1998)'이라는 책에서 정의한 내용입니다.
 
 <div class="container-fluid" margin="30px">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bertrand_Meyer_recent.jpg/220px-Bertrand_Meyer_recent.jpg" alt="Bertrand Meyer" height="150"/>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bertrand_Meyer_recent.jpg/220px-Bertrand_Meyer_recent.jpg" alt="Bertrand Meyer" height="300"/>
     <div>Bertrand Meyer(1995~, France)</div>
 </div>
 
@@ -164,3 +157,5 @@ classDiagram
 
 위와 같이 코딩한다면 미래에 웬만한 지불 환경 변화에도 쉽게 대처할 수 있습니다.
 
+
+## SOLID 튜토리얼 메인 페이지로 돌아가기 [Click](../README.md)

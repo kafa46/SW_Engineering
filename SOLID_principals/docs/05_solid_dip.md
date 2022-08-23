@@ -1,8 +1,3 @@
----
-noteId: "93518080219111ed9bc61399fcae5fac"
-tags: []
-
----
 
 # 의존관계 역전 원칙 (DIP)
 
@@ -446,3 +441,4 @@ if __name__=='__main__':
     switch.push(fan) # 스위치 1번 누름: 선풍기 on -> off
 ```
 
+SOLID 튜토리얼 메인 페이지로 돌아가기 [Click](../README.md)
