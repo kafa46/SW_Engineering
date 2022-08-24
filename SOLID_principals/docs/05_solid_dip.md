@@ -1,6 +1,13 @@
 
 # 의존관계 역전 원칙 (DIP)
 
+- SOLID 메인 페이지: [Click](../README.md)
+- 강의 슬라이드: [Click](../SOLID_principals.pdf)
+- 유튜브 동영상: 아래 이미지 클릭!
+
+    [![SOLID - 의존관계 역전 원칙](https://i.ytimg.com/vi/riZjLpvO8xk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAAEgS96zQyVwnp6kogFwtkzzL6nQ)](https://youtu.be/riZjLpvO8xk)
+
+
 의존관계 역전 원칙 (DIP: Dependency Inversion Principle) 원칙은 '클라이언트는 구체 클래스가 아닌 추상 클래스(인터페이스)에 의존해야 한다는 원칙입니다. 앞으로는 의존관계 역전 원칙은 간단히 DIP로 부르도록 하겠습니다. 구체적으로는 다음과 같이 말할 수 있습니다. 
 
 1. High level modules should not depend upon low level modules. Both should depend upon abstractions. 상위 모듈은 하위 모듈에 의존해서는 안됩니다. 상위/하위 모듈 모두 추상화에 의존해야 합니다.

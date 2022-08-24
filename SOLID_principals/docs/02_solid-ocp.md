@@ -1,5 +1,11 @@
 # 개방 폐쇄 원칙 (OCP)
 
+- SOLID 메인 페이지: [Click](../README.md)
+- 강의 슬라이드: [Click](../SOLID_principals.pdf)
+- 유튜브 동영상:  아래 이미지 클릭!
+
+    [![SOLID - 개방 폐쇄 원칙](https://i.ytimg.com/vi/2sYPFJS2HzY/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLArB-u6luTGfGNLwLIwzNX2xFQ8Wg)](https://youtu.be/2sYPFJS2HzY)
+
 개방 폐쇄 원칙은 Bertrand Meyer(1995~, France)가 'Object Oriented Software Construction (1998)'이라는 책에서 정의한 내용입니다.
 
 <div class="container-fluid" margin="30px">

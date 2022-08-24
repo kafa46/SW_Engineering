@@ -14,12 +14,13 @@
 |:---|:---|:---:|:---|:---|
 |-|유튜브 동영상 목록 보기|없음|없음|유튜브 [목록 보기](https://www.youtube.com/playlist?list=PLRUS1nW-CfncWwWByDX-MRHZvJJwE-oz7)|
 |0|Overview (훑어보기)|없음|없음|유튜브 [바로가기](https://youtu.be/59vNT83fcTA)|
-|1|**S** : 단일 책임 원칙 (SRP)|[Click](./docs/01_solid-srp.md)|SRP 적용 전 [Click](./codes/01_01_solid-tutorial-srp-before.py) <br>SRP 적용 후 [Click](./codes/01_02_solid-tutorial-srp-after.py)|유튜브 [바로가기](https://youtu.be/dzsmyn40FoM)|
-|2|**O** : 개방 폐쇄 원칙 (OCP)|[Click](./01_01_intro_to_mermaid.md)|OCP 적용 전 [click](./codes/02_01_solid-tutorial-ocp-before.py) <br>OCP 적용 후 [click](./codes/02_02_solid-tutorial-ocp-after.py) |유튜브 [바로가기](https://youtu.be/2sYPFJS2HzY)|
-|3|**L** : 리스코프 교체 원칙 (LSP)|[Click](./01_01_intro_to_mermaid.md)|LSP 적용 전 [click](./codes/03_01_solid-tutorial-lsp-before.py) <br>LSP 적용 후 [click](./codes/03_02_solid-tutorial-lsp-after.py)|유튜브 [바로가기](https://youtu.be/ebTdQrCGXvg)|
-|4|**I** : 인터페이스 분리 원칙 (ISP)|[Click](./01_01_intro_to_mermaid.md)|ISP 적용 전 [click](./codes/04_01_solid-isp-before.py) <br>ISP 적용 후 (상속 활용) [click](./codes/04_02_solid-isp-after-inheritance.py) <br>ISP 적용 후 (합성 활용) [click](./codes/04_03_solid-isp-after-composition.py) |유튜브 [바로가기](https://youtu.be/eU2Gx-0TwPk)|
-|5|**D** : 의존관계 역전 원칙 (DIP)|[Click](./01_01_intro_to_mermaid.md)| DIP 적용 전 [click](./codes/05_01_solid_dip_before.py) <br> DIP 중간 단계 [click](codes/05_02_solid_dip_intermediate.py) <br> DIP 적용 후 [click](codes/05_03_solid_dip_after.py) |유튜브 [바로가기](https://youtu.be/riZjLpvO8xk)|
-|6|참고자료 : 연관 및 의존관계 설명|[Click](./docs/relationship-association-vs-dependency.md)|없음|없음|
+|1|**S** : 단일 책임 원칙<br>(SRP)|[Click](./docs/01_solid-srp.md)|SRP 적용 전 [Click](./codes/01_01_solid-tutorial-srp-before.py) <br>SRP 적용 후 [Click](./codes/01_02_solid-tutorial-srp-after.py)|유튜브 [바로가기](https://youtu.be/dzsmyn40FoM)|
+|2|**O** : 개방 폐쇄 원칙<br> (OCP)|[Click](./01_01_intro_to_mermaid.md)|OCP 적용 전 [click](./codes/02_01_solid-tutorial-ocp-before.py) <br>OCP 적용 후 [click](./codes/02_02_solid-tutorial-ocp-after.py) |유튜브 [바로가기](https://youtu.be/2sYPFJS2HzY)|
+|3|**L** : 리스코프 교체 원칙<br> (LSP)|[Click](./01_01_intro_to_mermaid.md)|LSP 적용 전 [click](./codes/03_01_solid-tutorial-lsp-before.py) <br>LSP 적용 후 [click](./codes/03_02_solid-tutorial-lsp-after.py)|유튜브 [바로가기](https://youtu.be/ebTdQrCGXvg)|
+|4|**I** : 인터페이스 분리 원칙<br> (ISP)|[Click](./01_01_intro_to_mermaid.md)|ISP 적용 전 [click](./codes/04_01_solid-isp-before.py) <br>ISP 적용 후 (상속 활용) [click](./codes/04_02_solid-isp-after-inheritance.py) <br>ISP 적용 후 (합성 활용) [click](./codes/04_03_solid-isp-after-composition.py) |유튜브 [바로가기](https://youtu.be/eU2Gx-0TwPk)|
+|5|**D** : 의존관계 역전 원칙<br> (DIP)|[Click](./01_01_intro_to_mermaid.md)| DIP 적용 전 [click](./codes/05_01_solid_dip_before.py) <br> DIP 중간 단계 [click](codes/05_02_solid_dip_intermediate.py) <br> DIP 적용 후 [click](codes/05_03_solid_dip_after.py) |유튜브 [바로가기](https://youtu.be/riZjLpvO8xk)|
+|6|참고자료1 : 연관 및 의존관계 설명|[Click](./docs/relationship-association-vs-dependency.md)|없음|없음|
+|7|참고자료2 : 강의 슬라이드 (pdf)|[Click](./SOLID_principals.pdf)|없음|없음|
 ||||||
 
 

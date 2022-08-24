@@ -1,6 +1,13 @@
 
 # 단일 책임 원칙 (SRP)
 
+- SOLID 메인 페이지: [Click](../README.md)
+- 강의 슬라이드: [Click](../SOLID_principals.pdf)
+- 유튜브 동영상:  아래 이미지 클릭!
+
+    [![SOLID - 단일 책임 원칙](https://i.ytimg.com/vi/dzsmyn40FoM/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLAIG_LzfneOtsSeJDo8GrjKl7m7Mw)](https://youtu.be/59vNT83fcTA)
+
+
 단일 책임 원칙 (SRP: Single Responsibility Principle)은 모든 클래스는 단 하나의 책임만을 갖는다는 원칙입니다.
 
 주문과 관련된 클래스를 다음과 같이 설계하였다고 가정해 봅니다.

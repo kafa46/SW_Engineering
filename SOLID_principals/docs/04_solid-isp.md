@@ -1,5 +1,12 @@
 # 인터페이스 분리 원칙 (ISP)
 
+- SOLID 메인 페이지: [Click](../README.md)
+- 강의 슬라이드: [Click](../SOLID_principals.pdf)
+- 유튜브 동영상: 아래 이미지 클릭!
+
+    [![SOLID - 인터페이스 분리 원칙](https://i.ytimg.com/vi/eU2Gx-0TwPk/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLDT5Ib9IA-yQPYOP7jJ-wL2gN73Dg)](https://youtu.be/eU2Gx-0TwPk)
+
+
 인터페이스 분리 원칙 (ISP, Interface Segregation Principal)은 단일 책임 원칙 (SRP, Single Responsibility Principal)을 제안한 Robert Martin이 Xerox사 컨설팅 과정에서 제안한 개념입니다.
 
 <img src="../imgs/Robert_Martin.png" alt="Robert Martin" height="300">

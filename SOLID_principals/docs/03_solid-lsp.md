@@ -1,6 +1,12 @@
 
 # 리스코프 교체 원칙 (LSP)
 
+- SOLID 메인 페이지: [Click](../README.md)
+- 강의 슬라이드: [Click](../SOLID_principals.pdf)
+- 유튜브 동영상:  아래 이미지 클릭!
+
+    [![SOLID - 리스코프 교체 원칙](https://i.ytimg.com/vi/ebTdQrCGXvg/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLD73TubkVQaUNmIumCx-VeSvSIfOA)](https://youtu.be/ebTdQrCGXvg)
+
 
 리스코프 교체 원칙(LSP: Liskov Substitution Principal)은 Babara Liskov(1939~, USA)가 개발한 객체지향 프로그래밍 원칙 중 하나입니다. 
 
